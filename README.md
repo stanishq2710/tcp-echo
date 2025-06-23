@@ -72,3 +72,16 @@ gdb ./server
 (gdb) list   # Show source
 (gdb) print buffer  # Inspect variables
 ```
+
+📦 Future Improvements
+ Support for multiple clients using fork() or select()
+
+ Add logging functionality
+
+ Add TLS (OpenSSL) support
+
+ Graceful shutdown handling
+
+ 🧑‍💻 Author
+Tanishq Singh
+GitHub: @stanishq2710
