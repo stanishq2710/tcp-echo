@@ -37,7 +37,8 @@ make
 ```
 
 🔧 How It Works
-#Server Flow
+
+##Server Flow
 
 Creates a socket using socket()
 
@@ -49,7 +50,7 @@ Accepts a connection using accept()
 
 Reads data from the client and sends it back using read() and send()
 
-#Client Flow
+##Client Flow
 
 Creates a socket
 
