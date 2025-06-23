@@ -18,14 +18,6 @@ This is useful for:
 
 ---
 
-## 🗂️ Project Structure
-
-tcp_echo/
-├── server.c # TCP Echo Server
-├── client.c # TCP Echo Client
-├── Makefile # Build system
-└── README.md # Project documentation
-
 ## 🛠️ Build Instructions
 
 Make sure you have GCC installed. Then:
@@ -46,6 +38,7 @@ make
 
 🔧 How It Works
 #Server Flow
+
 Creates a socket using socket()
 
 Binds it to an IP and port using bind()
@@ -57,6 +50,7 @@ Accepts a connection using accept()
 Reads data from the client and sends it back using read() and send()
 
 #Client Flow
+
 Creates a socket
 
 Connects to the server using connect()
